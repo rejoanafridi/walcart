@@ -1,6 +1,71 @@
-.flex {
+.box {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+.flexbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_one {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.box_one li {
+	list-style: none;
+	padding: 20px;
+}
+.box_one li:first-child {
+	padding-left: 0;
+}
+.box_one li:last-child {
+	padding-right: 0;
+}
+.box_two {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.box_two li {
+	padding: 20px;
+	list-style: none;
+
+	cursor: pointer;
+	font-weight: 500;
+}
+.box_two li:last-child {
+	padding-right: 0 !important;
+}
+.box_two li span {
+	color: #bbbbbb;
+}
+.box_two li form select {
+	background: transparent;
+	color: white;
+	background: black;
+	border: none;
+}
+
+@media all and (max-width: 600px) {
+	.box_one,
+	.box_two {
+		margin: 0 auto;
+	}
+	.box_one,
+	.box_two li * {
+		font-size: 11px;
+		font-weight: 500;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.box_two li {
+		padding: 10px;
+	}
 }

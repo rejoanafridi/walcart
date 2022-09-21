@@ -71,8 +71,6 @@
 		Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-
-
 .card {
 	margin: 1rem;
 	padding: 1.5rem;
@@ -112,6 +110,9 @@
 	.grid {
 		width: 100%;
 		flex-direction: column;
+	}
+	.container {
+		padding: 0;
 	}
 }
 
