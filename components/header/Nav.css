@@ -1,0 +1,27 @@
+.list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.list li {
+	padding: 20px;
+	list-style: none;
+
+	cursor: pointer;
+	font-weight: 500;
+}
+.list li span {
+	color: #bbbbbb;
+}
+.list li form select {
+	background: transparent;
+	color: white;
+	background: black;
+	border: none;
+}
+
+
+
+	
