@@ -11,7 +11,9 @@ const SectionCategory = () => {
 
 	return (
 		<div className={productCss.container}>
-			<h3>Popular Product Categories</h3>
+			<div className={productCss.section_title}>
+				<h2>Popular Product Categories</h2>
+			</div>
 			<div className={productCss.product_row}>
 				{products.map((product, id) => (
 					<React.Fragment key={id}>

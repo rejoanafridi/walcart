@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
 			<main className={styles.main}>
 				<Banner />
 				<SectionCategory />
+
 				{children}
 			</main>
 		</div>
