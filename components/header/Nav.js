@@ -40,7 +40,7 @@ const Nav = () => {
 					</li>
 				</div>
 			</div>
-			<div className={list.box}>
+			<div className={navStyle.navbar}>
 				<div className={navStyle.nav_logo}>
 					<img src="/images/logo.png" alt="" />
 				</div>
@@ -59,18 +59,17 @@ const Nav = () => {
 						placeholder="Search"
 					/>
 				</div>
-				<div className="nav-list-item">
-					<div className={navStyle.list_item}>
-						<div className={navStyle.acount_btn}>
-							<img src="images/account.png" alt="" />
-							<div>
-								<p>Sign In</p>
-								<p>Account</p>
-							</div>
+
+				<div className={navStyle.nav_account}>
+					<div className={navStyle.acount_btn}>
+						<img src="images/account.png" alt="" />
+						<div>
+							<p>Sign In</p>
+							<p>Account</p>
 						</div>
-						<img src="images/support.png" alt="" />
-						<img src="images/cart.png" alt="" />
 					</div>
+					<img src="/images/support.png" alt="" />
+					<img src="/images/cart.png" alt="" />
 				</div>
 			</div>
 			<div className={navStyle.category_third}>
