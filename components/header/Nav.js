@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/Layoput.module.css";
-import listStyle from "../../styles/Listitem.module.css";
+
 import navStyle from "../../styles/Nav.module.css";
 
 import list from "../../styles/Common.module.css";
@@ -75,7 +75,7 @@ const Nav = () => {
 			</div>
 			<div className={navStyle.category_third}>
 				<div className={navStyle.category}>
-					<i class="fa-solid fa-bars"></i>
+					{/* <i className="fa-solid fa-bars"></i> */}
 					<li>
 						<a href="#">
 							Top Categories <span>&#9660;</span>{" "}
