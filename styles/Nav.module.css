@@ -104,9 +104,10 @@
 	height: 58px;
 	border-radius: 10px 10px 0 0;
 }
-.category i {
-	margin-right: 40px;
-	font-size: 20px;
+.category img {
+	padding-right: 4.5rem;
+
+	filter: invert(100%);
 }
 .category li {
 	list-style: none;
@@ -127,6 +128,11 @@
 
 .category_items li {
 	list-style: none;
+	cursor: pointer;
+}
+.category_items li:hover {
+	color: #f8d7d7;
+	transition: all 0.3s;
 }
 .category_items li form select {
 	background: none;

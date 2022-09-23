@@ -19,6 +19,11 @@
 .box_one li {
 	list-style: none;
 	padding: 1rem;
+	cursor: pointer;
+}
+.box_one li:hover {
+	color: #f6c4c4;
+	transition: all 0.3s;
 }
 .box_one li:first-child {
 	padding-left: 0;
@@ -35,9 +40,12 @@
 .box_two li {
 	padding: 1rem;
 	list-style: none;
-
 	cursor: pointer;
 	font-weight: 500;
+}
+.box_two li:hover {
+	color: #f6c4c4;
+	transition: all 0.3s;
 }
 .box_two li:last-child {
 	padding-right: 0 !important;

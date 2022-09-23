@@ -7,11 +7,10 @@
 	justify-content: space-between;
 	align-items: center;
 	list-style: none;
-	width: 300px;
-	background-color: #ffffff;
+	width: 320px;
+	background: #ffffff;
 	border-bottom: 1px solid #f4f4f4;
 	padding: 6px 20px;
-
 	font-size: 1rem;
 	text-align: left;
 	font-weight: 400;
@@ -28,23 +27,23 @@
 	list-style: none;
 }
 
-.dropdown_title p {
-	text-align: left;
+.dropdown_title {
 	flex: 1 1 70%;
 }
 .dropdown_icon img {
 	flex: 1 1 30%;
+	padding-right: 20px;
 }
 .submenu_item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-	width: 300px;
+	width: 317px;
 	background-color: #ffffff;
 	border-bottom: 1px solid #f4f4f4;
 	padding: 6px 20px;
-	gap: 2rem;
+	gap: 3rem;
 	font-size: 1rem;
 	text-align: left;
 	font-weight: 400;
@@ -56,11 +55,11 @@
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-	width: 300px;
+	width: 317px;
 	background-color: #ffffff;
 	border-bottom: 1px solid #f4f4f4;
 	padding: 6px 20px;
-	gap: 2rem;
+	gap: 3rem;
 	font-size: 1rem;
 	text-align: left;
 	font-weight: 400;
@@ -79,8 +78,8 @@
 
 .sub_menu li {
 	position: absolute;
-	left: 18.2rem;
-	top: -4.2rem;
+	left: 18.8rem;
+	top: -4.3rem;
 	width: 300px;
 	border-bottom: 1px solid #f4f4f4;
 	padding: 6px 20px;
@@ -89,8 +88,8 @@
 
 .second_sub_menu li {
 	position: absolute;
-	left: 18.2rem;
-	top: -4.2rem;
+	left: 18.5rem;
+	top: -4.3rem;
 	width: 300px;
 	border-bottom: 1px solid #f4f4f4;
 	padding: 6px 20px;

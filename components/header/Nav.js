@@ -74,7 +74,8 @@ const Nav = () => {
 			</div>
 			<div className={navStyle.category_third}>
 				<div className={navStyle.category}>
-					{/* <i className="fa-solid fa-bars"></i> */}
+					<img src="/images/menu.png" alt="" />
+
 					<li>
 						<a href="#">
 							Top Categories <span>&#9660;</span>{" "}
