@@ -3,7 +3,7 @@ import styles from "../../styles/Layoput.module.css";
 
 import navStyle from "../../styles/Nav.module.css";
 
-import list from "../../styles/Common.module.css";
+import list from "../../styles/List.module.css";
 const Nav = () => {
 	return (
 		<div className={styles.container}>
@@ -77,23 +77,9 @@ const Nav = () => {
 					<img src="/images/menu.png" alt="" />
 
 					<li>
-						<a href="#">
+						<p>
 							Top Categories <span>&#9660;</span>{" "}
-						</a>
-						{/* <ul>
-							<li>
-								<a href="#"> medium categroy </a>
-							</li>
-							<li>
-								<a href="#"> small categroy </a>
-							</li>
-							<li>
-								<a href="#"> hot sale </a>
-							</li>
-							<li>
-								<a href="#"> new item </a>
-							</li>
-						</ul> */}
+						</p>
 					</li>
 				</div>
 				<div className={navStyle.category_items}>

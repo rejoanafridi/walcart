@@ -18,7 +18,7 @@
 }
 .box_one li {
 	list-style: none;
-	padding: 1rem;
+	padding: 1rem 1.5rem;
 	cursor: pointer;
 }
 .box_one li:hover {
@@ -38,7 +38,7 @@
 }
 
 .box_two li {
-	padding: 1rem;
+	padding: 1rem 2rem;
 	list-style: none;
 	cursor: pointer;
 	font-weight: 500;
@@ -67,11 +67,14 @@
 	}
 	.box_one,
 	.box_two li {
-		font-size: 11px;
 		font-weight: 500;
+		font-size: 12px;
 	}
 	.box_one li {
-		padding: 0.5rem;
+		padding: 7px;
+	}
+	.box_two li {
+		padding: 1rem 1.5rem;
 	}
 }
 
@@ -81,5 +84,6 @@
 	}
 	.box_one li {
 		padding: 0.6rem;
+		font-size: 1rem;
 	}
 }

@@ -3,7 +3,6 @@ const axios = require("axios").default;
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import bs from "../../styles/Banner.module.css";
-import Categories from "../utils/Categories";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 

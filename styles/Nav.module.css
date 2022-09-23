@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 5rem;
+	gap: 4rem;
 }
 .nav_logo {
 	flex: 1 1 10%;
@@ -13,7 +13,7 @@
 }
 
 .nav_search {
-	flex: 1 1 70%;
+	flex: 1 1 60%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -35,6 +35,7 @@
 	text-align: left;
 	color: #2c2c2c;
 	cursor: pointer;
+	letter-spacing: 1.5px;
 }
 .nav_search .submit {
 	background: #ef262c;
@@ -47,10 +48,13 @@
 	cursor: pointer;
 }
 .nav_account {
-	flex: 1 1 20%;
+	flex: 1 1 30%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+}
+.nav_account img {
+	cursor: pointer;
 }
 
 .acount_btn {
@@ -88,25 +92,25 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 2.5rem;
+
 	/* flex-wrap: wrap; */
 }
 
 .category {
 	flex: 1 1 20%;
 
-	background: orangered;
+	background: #ef262c;
+
 	padding: 10px 20px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	margin-top: 52px;
-	width: 295px;
-	height: 58px;
+
+	height: 78px;
 	border-radius: 10px 10px 0 0;
 }
 .category img {
-	padding-right: 4.5rem;
-
 	filter: invert(100%);
 }
 .category li {
@@ -118,12 +122,12 @@
 	margin-left: 20px;
 }
 .category_items {
-	flex: 1 1 60%;
+	flex: 1 1 55%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 2rem;
-	padding: 0 150px;
+	padding: 0 3.5rem;
 }
 
 .category_items li {
@@ -145,10 +149,10 @@
 }
 
 .discount {
-	flex: 1 1 20%;
-
+	flex: 1 1 25%;
+	line-height: 10px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	gap: 1rem;
 }
@@ -193,7 +197,7 @@
 
 @media all and (max-width: 900px) {
 	.navbar {
-		gap: 1rem;
+		gap: 0rem;
 	}
 	.nav_account {
 		display: none;
