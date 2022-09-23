@@ -18,7 +18,7 @@
 }
 .box_one li {
 	list-style: none;
-	padding: 20px;
+	padding: 1rem;
 }
 .box_one li:first-child {
 	padding-left: 0;
@@ -33,7 +33,7 @@
 }
 
 .box_two li {
-	padding: 20px;
+	padding: 1rem;
 	list-style: none;
 
 	cursor: pointer;
@@ -58,14 +58,20 @@
 		margin: 0 auto;
 	}
 	.box_one,
-	.box_two li * {
+	.box_two li {
 		font-size: 11px;
 		font-weight: 500;
 	}
+	.box_one li {
+		padding: 0.5rem;
+	}
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 900) {
 	.box_two li {
-		padding: 10px;
+		padding: 0.6rem;
+	}
+	.box_one li {
+		padding: 0.6rem;
 	}
 }

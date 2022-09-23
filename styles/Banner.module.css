@@ -6,6 +6,7 @@
 	justify-content: center;
 	align-items: center;
 	gap: 2rem;
+	/* flex-wrap: wrap; */
 }
 .banner_category {
 	flex: 1 1 20%;
@@ -31,6 +32,7 @@
 	align-items: center;
 	flex-direction: column;
 	gap: 2rem;
+	flex-wrap: wrap;
 }
 .banner_side_image img {
 	width: 100%;
@@ -81,4 +83,23 @@
 	flex: 1 1 5%;
 	font-weight: 700;
 	color: #736c6c;
+}
+
+@media all and (max-width: 900px) {
+	.container {
+		padding: 2rem;
+	}
+	.banner_category {
+		display: none;
+	}
+
+	.banner_side_image {
+		gap: 1rem;
+	}
+	.banner_row {
+		gap: 1rem;
+	}
+	.banner_side_image img {
+		width: 90%;
+	}
 }

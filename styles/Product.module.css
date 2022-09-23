@@ -23,3 +23,22 @@
 	align-items: center;
 	border-radius: 5px;
 }
+
+.product:hover {
+	background: #fff2f2;
+	transition: 0.5s ease;
+}
+
+@media all and (max-width: 600px) {
+	.container {
+		padding: 0 2rem;
+	}
+	.product {
+		gap: 0.5rem;
+	}
+}
+@media all and (max-width: 900px) {
+	.container {
+		padding: 0 2rem;
+	}
+}

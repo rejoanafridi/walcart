@@ -30,11 +30,9 @@ const Banner = () => {
 		<div className={bs.container}>
 			<div className={bs.banner_row}>
 				<div className={bs.banner_category}>
-					{category.length > 0
-						? category?.map((data, idx) => (
-								<Dropdown key={idx} props={data} category={category} />
-						  ))
-						: ""}
+					{category?.map((data, idx) => (
+						<Dropdown key={idx} props={data} category={category} />
+					))}
 				</div>
 
 				<Swiper
