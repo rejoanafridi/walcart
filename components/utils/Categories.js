@@ -10,6 +10,7 @@ const Categories = ({ props }) => {
 			<p>{props?.name}</p>
 
 			<span>{props.subcategory ? <span>&#62;</span> : ""}</span>
+			
 		</div>
 	);
 };

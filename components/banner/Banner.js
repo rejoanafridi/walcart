@@ -13,12 +13,13 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 // import required modules
 import { Pagination } from "swiper";
+import Dropdown from "../utils/Dropdown";
 
 const Banner = () => {
 	// const [data, setData] = useState([]);
 	const [category, setCategory] = useState([]);
 	// console.log(data);
-	console.log(category);
+
 	useEffect(() => {
 		axios.get("/api/categories.json").then(function (response) {
 			setCategory(response.data);
@@ -29,9 +30,11 @@ const Banner = () => {
 		<div className={bs.container}>
 			<div className={bs.banner_row}>
 				<div className={bs.banner_category}>
-					{category.map((data, idx) => (
-						<Categories key={idx} props={data} />
-					))}
+					{category.length > 0
+						? category?.map((data, idx) => (
+								<Dropdown key={idx} props={data} category={category} />
+						  ))
+						: ""}
 				</div>
 
 				<Swiper

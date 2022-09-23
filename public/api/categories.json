@@ -101,60 +101,12 @@
 	{
 		"name": "Home Appliances",
 		"image": "/images/categories/category (3).png",
-		"subcategory": true,
-
-		"submenu": [
-			{
-				"name": "Laptop and Desktop",
-				"image": "/images/categories/category (8).png",
-				"subcategory": true
-			},
-			{
-				"name": "Home Living",
-				"image": "/images/categories/category (1).png",
-				"subcategory": false
-			},
-			{
-				"name": "Book And Stationary",
-				"image": "/images/categories/category (2).png",
-				"subcategory": true
-			},
-			{
-				"name": "Home Appliances",
-				"image": "/images/categories/category (3).png",
-				"subcategory": true
-			},
-			{
-				"name": "Book And Stationary",
-				"image": "/images/categories/category (4).png",
-				"subcategory": false
-			},
-			{
-				"name": "Electronics Appliances",
-				"image": "/images/categories/category (5).png",
-				"subcategory": true
-			},
-			{
-				"name": "Fast Food and Snacks",
-				"image": "/images/categories/category (6).png",
-				"subcategory": false
-			},
-			{
-				"name": "More Categories",
-				"image": "/images/categories/category (7).png",
-				"subcategory": true
-			}
-		]
+		"subcategory": true
 	},
 	{
 		"name": "Book And Stationary",
 		"image": "/images/categories/category (4).png",
-		"subcategory": false
-	},
-	{
-		"name": "Electronics Appliances",
-		"image": "/images/categories/category (5).png",
-		"subcategory": true,
+		"subcategory": false,
 		"submenu": [
 			{
 				"name": "Laptop and Desktop",
@@ -174,12 +126,34 @@
 			{
 				"name": "Home Appliances",
 				"image": "/images/categories/category (3).png",
-				"subcategory": true
+				"subcategory": false
 			},
 			{
 				"name": "Book And Stationary",
 				"image": "/images/categories/category (4).png",
-				"subcategory": false
+				"subcategory": true,
+				"thirdsubmenu": [
+					{
+						"name": "Laptop and Desktop",
+						"image": "/images/categories/category (8).png",
+						"subcategory": true
+					},
+					{
+						"name": "Home Living",
+						"image": "/images/categories/category (1).png",
+						"subcategory": false
+					},
+					{
+						"name": "Book And Stationary",
+						"image": "/images/categories/category (2).png",
+						"subcategory": true
+					},
+					{
+						"name": "Home Appliances",
+						"image": "/images/categories/category (3).png",
+						"subcategory": true
+					}
+				]
 			},
 			{
 				"name": "Electronics Appliances",
@@ -197,6 +171,11 @@
 				"subcategory": true
 			}
 		]
+	},
+	{
+		"name": "Electronics Appliances",
+		"image": "/images/categories/category (5).png",
+		"subcategory": true
 	},
 	{
 		"name": "Fast Food and Snacks",
