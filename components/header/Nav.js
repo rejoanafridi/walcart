@@ -49,7 +49,7 @@ const Nav = () => {
 
 					<input
 						className={navStyle.search_input}
-						type="text"
+						type="search"
 						placeholder="What do you want to order?"
 					/>
 

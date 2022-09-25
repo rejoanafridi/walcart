@@ -27,8 +27,16 @@ const Dropdown = ({ props, category }) => {
 											<div className={styleDrop.dropdown_title}>
 												<p>{item?.name}</p>
 											</div>
-											<span>{item.thirdsubmenu ? <span className={styleDrop.hover}>&#62;</span> : ""}</span>
+
+											<span>
+												{item.thirdsubmenu ? (
+													<div className={styleDrop.hober}>&#62;</div>
+												) : (
+													""
+												)}
+											</span>
 										</a>
+
 										{item?.thirdsubmenu?.length > 0 && (
 											<ul className={styleDrop.second_sub_menu}>
 												{

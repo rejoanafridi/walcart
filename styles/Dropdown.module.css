@@ -94,9 +94,10 @@
 	z-index: 10;
 }
 
-.dropdown:hover .sub_menu {
+.dropdown ul:hover .sub_menu {
 	display: block;
 }
-.sub_menu:hover .second_sub_menu {
+
+.sub_menu li:hover .second_sub_menu {
 	display: block;
 }
